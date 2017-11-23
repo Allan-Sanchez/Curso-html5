@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contenido incrustado</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="img">
+        <h1>Etiquetas de contenido incrustado </h1>
+        <p>Etiqueta para insertar imagenes "img" src= aqui colocamos la ruta de nuestra imagen alt=pequeña descripcion por si el navegado no puede abrir la imagen <br><br>Etiqueta img = src="ruta" alt="descripcion" width="ancho en pixeles" </p>
+        <div class="imagen">
+            <img src="../../img/Imagen-2.jpg" alt="programacion web" width="340"></div>
+    </div>
+    <div class="iframe">
+        <br>
+        <p>Etiqueta para insertar otros archivos u otra pagina dentro de nuestra pagina sus atributos son witdh="Ancho" src='ruta'por defecto la etiqueta iframe coloca unos bordes para poder quitarles esos bordes le agregamos el atributo frameborder="0" Ejemplo como incrustar un video de youtube inicial mente cuando colocamos la ruta de un video de youtube no se ve debemos colocar embed tambien cuando los incrustas viene bloqueado el full pantalla para poder habilitarlos devemos colocar un atributo "allowfullscreen" </p>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/46tnH3A0jDc" width="500" height="300" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <br>
+    </div>
+    <div class="embed">
+        <p>
+            Etiqueta embed en esta etiqueta podemos incrustas videos e audios
+        </p> <embed src="../../audios/Itro%20&%20Tobu%20-%20Cloud%209%20%5BNCS%20Release%5D.mp3" height="60">
+        <br>
+    </div>
+
+    <div class="object">
+        <p>La etiqueta Object dentro de esta etiqueta podemos ingresa varios tipos de archivos como lo son imagenes y videos en varios tipos de formatos. Esta etiqueta esta compuesta por un data="aqui colocamos la ruta del archivo" y type=""este se puede omitir
+        aqui podemos incrustar documentos pdf entro de la etiqueta object cuando agregamos un video tenemos un atributo llamado "param" ejemplo param atributo name="autostar" value="true"para que inicie automativamente al cargar la pagina</p>
+        <div class="obj_img">
+            <object data="../../img/imagen-4.jpg" type="" width="400"></object>
+        </div>
+        <br>
+    </div>
+
+</body>
+</html>
