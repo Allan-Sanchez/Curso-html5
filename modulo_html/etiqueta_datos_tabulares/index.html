@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Etiqueta table</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+</head>
+
+<body>
+    <h1>etiqueta para la incercion de tablas</h1>
+    <p>la etiqueta table se utiliza para poder incertar registros dentro de una tabla. <br>La etiqueta principal es <b>" table "</b> para decir al navegador que insertaremos una tabla <br> La etiqueta <b> "tr" </b>noos sirve para especificar que vamos a trabajar en una fila tr =fila <br> La etiqueta para decir que vamos a trabajar en una columna es <b>"td"</b> td=columna Ejemplo </p>
+    <br>
+    <p>La para colocar un borde en nuestra tabla debemos agregar un atributo "Border" a si tambien podemos agregar un padding a nuestra tabla con "cellpadding" </p>
+    <table border="2" cellpadding="8">
+        <tr>
+            <td>No. </td>
+            <td>Nombre </td>
+            <td>Apellido </td>
+            <td>Direccion </td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Allan</td>
+            <td>Sanchez</td>
+            <td>Mata</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Fatima</td>
+            <td>Reyes</td>
+            <td>Jalapa</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Julio</td>
+            <td>Profe</td>
+            <td>Colombia</td>
+        </tr>
+    </table>
+    <br>
+    <p> Otra manera de hacer una tabla esta tiene formato de pagina por dentro
+    </p>
+    <table border="1" cellpadding="5">
+        <!--Titulo de mi tabla -->
+        <caption>Otra forma de usar table </caption>
+
+        <!--Encabezado de mi tabla-->
+        <thead>
+            <tr>
+                <th>No. </th>
+                <th>Nombre </th>
+                <th>Apellidos </th>
+            </tr>
+        </thead>
+        <!--Cuerpo de mi tabla -->
+        <tbody>
+
+
+            <!--Sirve para agrupar nuestras columnas de la tabla-->
+            <colgroup>
+                <!--col es para cada columna de nuestra tabla-->
+                <col width="100">
+                <col width="150">
+                <col width="200">
+            </colgroup>
+            <tr>
+                <td>1</td>
+                <td>Allan</td>
+                <td>Sanchez</td>
+            </tr>
+            <tr>
+                <!--rowspan es para que ese bloque tome lo de dos espacios-->
+                <td rowspan="2">2</td>
+                <td>Fatima</td>
+                <td>Loy</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>Dias</td>
+            </tr>
+        </tbody>
+        <!--pie de la tabla-->
+        <tfoot>
+            <tr>
+                <!--colspan es para que ocupe this en este caso tres espacios -->
+                <td colspan="3" style="text-align: center"> 2017 </td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
+
