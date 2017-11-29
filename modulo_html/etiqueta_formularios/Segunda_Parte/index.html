@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Etiqueta form</title>
+</head>
+<body>
+    <h1>Segunda parte </h1>
+    <p>Otras caracteristicas de la etiqueta form <b>"select"</b> </p>
+    <form action="">
+        <select name="Lenguajes[]" id="">
+            <optgroup label="Selecciona un lenguaje">
+                <option value="html">Html</option>
+                <option value="css">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+            </optgroup>
+        </select>
+        <input type="submit" value="Enviar">
+
+        <fieldset>
+            <legend>Ciudades</legend>
+            <label for="">En forma de lista</label>
+            <input name="ciudad" type="search" list="ciudades">
+            <datalist id="ciudades">
+                <option value="Jalapa">
+                <option value="Monjas">
+                <option value="Barberena">
+                <option value="peten">
+                <option value="Guatemala">
+            </datalist>
+        </fieldset>
+    </form>
+    <p>Otra etiqueta que veremos es <b>"details"</b> el contenido permanece oculto hasta que le demos click. Ejemplo </p>
+
+    <details>
+    <summary>El texto esta oculto</summary>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, eos, accusantium. Eaque non velit fugiat repudiandae ipsum labore minima quo ad quasi dicta, recusandae nostrum odio omnis consequuntur doloribus voluptatibus!</details>
+</body>
+</html>

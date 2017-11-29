@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Etiqueta de Formularios</title>
+</head>
+
+<body>
+    <h1>Etiqueta de Formularios </h1>
+    <p>La etiqueta <b>"form"</b> es para formularios de ella se despliegan muchas etiquetas mas como lo es <b>"input"</b> y de este mismo se derivan atributos como los son <b>Diferentes type " text, password, gmail,submit, etc "</b> </p>
+    <br>
+
+    <!--etique para color formularios-->
+    <form enctype="multipart/form-data">
+        <!--fielset esta etiqueta es como un contenedor de todo nuestro formulario-->
+        <fieldset>
+            <!--legend es como un titulo de nuestro formulario
+           TODOS LO FORMULARIOS ENVIA POR PHP AGREGANDO LA ETIQUETA "name="nombre"-->
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre:  </label>
+            <!--al colocarles el mismo nombre en el for con
+            el id de input al darle click en nombre este hace focus en el imput nombre-->
+            <input id="nombre" type="text">
+            <br><br>
+            <label for="apellido">Apellido:</label>
+            <input id="apellido" type="text">
+            <br>
+            <br>
+            <label for="clave">Contraseña:</label>
+            <input id="clave" type="password">
+            <br><br>
+            <label for="fecha">Fecha:</label>
+            <input id="fecha" type="date">
+            <br><br>
+            <label for="gmail">Correo:</label>
+            <input id="gmail" type="gmail">
+            <!--submit realiza la accion de enviar -->
+            <input type="submit" value="enviar">
+            <br>
+            <br>
+            <!--tambien existe el de adjuntar archivos pero devemos agregarle al forumulario el atributo "enctype="multiple/form-datas"-->
+            <input type="file" name="archivos" multiple>
+            <!--multiple para seleccionar muchos archivos-->
+            <input type="reset" name="reset" value="Limpiar Campos">
+
+        </fieldset>
+        <!--Tambien podemos agregar radio button-->
+        <fieldset>
+            <legend>selecciona un lenguaje</legend>
+            <!--para poder solo seleccionar solo uno debemos colocarles el mismo nombre-->
+            <label for="">C++</label>
+            <input name="res" type="radio" value="c++">
+            <label for="">JAVA</label>
+            <input name="res" type="radio" value="java">
+            <label for="">C#</label>
+            <input name="res" type="radio" value="c#">
+        </fieldset>
+        <fieldset>
+            <legend>seleccione varios lenguajes</legend>
+            <!--para poder solo seleccionar solo uno debemos colocarles el mismo nombre-->
+            <label for="">C++</label>
+            <input name="res2" type="checkbox" value="c++">
+            <label for="">JAVA</label>
+            <input name="res2" type="checkbox" value="java">
+            <label for="">C#</label>
+            <input name="res2" type="checkbox" value="c#">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
