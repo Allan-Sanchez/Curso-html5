@@ -1,0 +1,19 @@
+
+/*selectore heredando directamente los estilos
+css a usu hijo ejemplo*/
+
+/*al colocarle el simbolo (>) le queremos decir que es heredando directemente
+de la etiqueta anterior*/
+div>p{
+  font-size: 40px;
+}
+
+/*Tambien tenemos los selectore de propiedades*/
+
+/*input[type]
+/*selector de atributos directos
+input[type="text"]*/
+
+*{
+  background-color: rgba(251, 141, 136, 0.55);
+}
