@@ -1,0 +1,30 @@
+/*selector de enlaces (a)*/
+a{
+  font-size: 40px;
+  /*para quitarle el subrrayado*/
+  text-decoration: none;
+}
+
+/*enlaces sin visitar*/
+a:link{
+  text-decoration: none;
+  color: rgb(194, 215, 22);
+}
+*{
+  background: #a9e8d5;
+}
+/*enlaces visitados*/
+a:visited{
+  text-decoration: none;
+  color: rgb(41, 196, 38);
+}
+/*estilos a la hora de pasar el mause encipa */
+a:hover{
+  color: rgb(128, 37, 51);
+  background: rgb(172, 238, 227);
+
+}
+/*estilo a la hora de dar clinck en el*/
+a:active{
+  color: rgb(221, 12, 232);
+}

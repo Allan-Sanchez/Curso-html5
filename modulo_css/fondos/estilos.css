@@ -1,0 +1,17 @@
+*{
+  /*fondo sencillos*/
+  /*background: rgba(59, 6, 235, 0.71);*/
+
+  /*imagenes de fondo*/
+  background-image: url('../img/pattern.png');
+  /*repeat es para indicar si queremos que se repita nuestra imagen de fondo o no*/
+  background-repeat: repeat;
+  /*size para indicar de que tama;o queremos la imagen que esta sirviendo de fondo
+  si le colocamos cover este ocupara el 100% del fondo*/
+  /*background-size:cover;*/
+  /*attachment aqui le indicamos si queremos un efecto scroll con nuestro fondo
+  o si lo queremos fijo de ser este el caso colocamos fixed*/
+  background-attachment: fixed;
+  /*position para darle una posicion a nuestro */
+  /*background-position: center;*/
+}
