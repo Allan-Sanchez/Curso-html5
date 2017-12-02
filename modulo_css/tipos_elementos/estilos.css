@@ -1,0 +1,28 @@
+body{
+  background: rgb(236, 233, 145);
+  font-family: Arial;
+}
+/*Algunos elementos "inline" linea
+a,span,img,b,i,small,cite,code,
+em, strong,,br,script,button,
+input,label, select textarea*/
+
+/*Algunos de los elementos "Block"
+div, article,section,header, footer, aside,
+table, p,video, ul,ol,h1, h2,h3,h4,h5,h6,*/
+
+h1,p,div{
+  background: rgb(120, 238, 149);
+  padding: 10px;
+  width: 500px;
+}
+a{
+  color: rgb(249, 242, 246);
+  background:rgb(18, 102, 236);
+  display: inline-block;
+  margin: 10px;
+  width: auto;
+  height: 30px;
+  padding: 5px;
+  text-decoration: none;
+}

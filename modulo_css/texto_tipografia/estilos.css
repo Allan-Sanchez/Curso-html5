@@ -1,0 +1,36 @@
+*{
+  background: rgb(238, 108, 181);
+}
+
+/*tipo-grafia*/
+
+p{
+  /*aliniacion del texto*/
+  text-align: justify;
+  /*transformar el texto ya se todo mayusculas o todo minusculas*/
+  text-transform: capitalize;
+  /*letter-spacing espaciado entre letras*/
+  letter-spacing: normal;
+  /*sangria del texto*/
+  line-height: normal;
+
+}
+h1{
+  /*tipografia de la letras*/
+  font-family: sans-serifn,monospace;
+/*tama;o de la letras*/
+  font-size: 40px;
+  /*estilo en la letra*/
+  font-style: italic;
+  /*por si le queremos quitar la negrita o colocarles en negrita*/
+  font-weight: lighter;
+  /*para darle un color de texto*/
+  color: rgb(101, 117, 204);
+  /*decoracion de la letra si aparase subrrayado o no*/
+  text-decoration: underline;
+  text-transform: uppercase;
+
+}
+h2{
+  font-family: 'Atomic Age', cursive;
+}

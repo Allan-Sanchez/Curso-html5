@@ -1,0 +1,47 @@
+*{
+  background:rgb(139, 210, 200) ;
+}
+div{
+  margin: 20px 0;
+}
+.btn{
+  background: rgb(122, 52, 42);
+  color: rgb(254, 254, 254);
+  font-size: 24px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 20px;
+  margin-right: 20px;
+}
+.btn:hover{
+  opacity: 0.8
+}
+
+/* Tamaños  */
+/*small*/
+.small{
+  font-size: 16px;
+  padding: 10px 15px;
+}
+.medium{
+  font-size: 20px;
+  padding: 15px 20px;
+}
+.big{
+  font-size: 24px;
+  padding: 20px 25px;
+}
+.extra-big{
+  font-size: 28px;
+  padding: 25px 30px;
+}
+/* colores */
+.cafe{background: #bcaf9c }
+.rojo{background: #904e55 }
+.azul{background: #415a77 }
+.gris{background: #939196 }
+
+/*efectos*/
+.bordes{
+  border-radius: 100px;
+}
