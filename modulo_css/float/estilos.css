@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+body{
+background: rgb(244, 254, 248);
+}
+.cajapadre{
+  width: 700px;
+  background: rgb(36, 159, 193);
+  overflow: hidden;
+  margin: 20px;
+  border: 5px solid rgb(14, 12, 12);
+}
+.caja{
+  width: 200px;
+  color: #fff;
+  font-size: 40px;
+  height: 200px;
+  background: rgb(237, 72, 122);
+  margin: 20px;
+  border: 1px solid rgb(14, 12, 12);
+}
+.uno{
+  float: left;
+}
+.dos{
+  float: right;
+}
+.articulo{
+  padding: 10px;
+  width: 500px;
+  background: rgb(240, 237, 222);
+  border: 5px solid rgb(7, 8, 7);
+}
+.articulo img{
+  float: left;
+  padding-right: 20px;
+}

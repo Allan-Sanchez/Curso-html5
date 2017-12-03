@@ -1,0 +1,60 @@
+body{
+  background: rgb(220, 178, 227);
+}
+
+div,a{
+  background:rgb(193, 83, 113);
+  margin: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+a{
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+  margin: 0;
+  border: 2px solid #000000;
+  font-size: 20px;
+}
+.caja {
+  width: 200px;
+  height: 250px;
+  color: #000;
+  background: #4fb560;
+  /*overflow: hidden; para ocultar el contenido restante*/
+  overflow: auto;;/*agrega un scroll para poder ver todo el contenido*/
+}
+.enlace1{
+  overflow: hidden;
+  background:#4fb560;
+  border: 2px solid rgb(14, 15, 15);
+  margin: 20px 0;
+  width: 600px;
+  padding: 2px;
+}
+.izquierda{
+  float: left;
+  border: 1px solid rgb(14, 15, 15);
+}
+.derecha{
+  float: right;
+  border: 1px solid rgb(14, 15, 15);
+}
+.contenedor .caja1{
+width: 150px;
+height: 150px;
+position: relative;
+}
+.numero1{
+  background: rgb(77, 15, 69);
+  /*para determinar su posicion*/
+  z-index: 80;
+  border: 1px solid rgb(14, 15, 15);
+}
+.numero2{
+  background: rgb(10, 50, 65);
+  bottom: 80px;
+  left: 50px;
+  z-index: 90;
+  border: 1px solid rgb(14, 15, 15);
+}

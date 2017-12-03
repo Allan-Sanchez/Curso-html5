@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: rgb(217, 198, 238);
+}
+/*tipos de Pocisionamientos
+ -Normal (static) posicionamiento por defecto en los navegadores
+ -Relativo(relative) nos permite posicionaer una caja y despues moverla desde su lugar original
+ -Absoluto (absolute) nos permite posicionar una caja respecto a su contenedor y el resto de
+ elemento ignora la nueva posicion
+ -fijo(fixed) nos permite fijar un elemento o caja
+ -flotante (float) aqui no se usa position = nos permite desplazar las cajas todas ya sea a la deracha o izquierda*/
+.caja{
+  width: 200px;
+  height: 200px;
+  background: rgb(135, 55, 237);
+  font-size: 25px;
+  margin: 20px;
+  float: left;
+}
+
+.mover{
+background: rgb(205, 60, 132);
+/*position:static; en esta pocision no se puede modificar o mover*/
+/*position: relative; en esta pocision empujamos la caja*/
+/*position: absolute; en esta no emujamos simplemente asignamos donde lo queremos por cordenadas*/
+/*position: fixed; fija el elemento*/
+
+}
+.padre{
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+.hijo{
+  background: rgb(49, 121, 131);
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
