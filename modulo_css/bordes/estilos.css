@@ -1,0 +1,44 @@
+div{
+  background: rgb(85, 182, 199);
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.caja1{
+  /*bordes solidos*/
+  border: 5px solid #000;
+  border-radius: 30px;
+}
+.caja2{
+  /*bordes con muntos*/
+  border: 5px dotted #000;
+  border-radius: 30px 10px 30px 10px;
+}
+.caja3{
+  /*borde con lineas punteadas*/
+  border: 5px dashed #000;
+  border-radius: 10px 40px 10px 40px;
+}
+.caja4{
+  border: 5px double #000;
+  border-radius: 100%;
+}
+.caja5{
+  /*especie de enmarcado sombra hacia afuera*/
+  border: 5px groove #000;
+  border-radius: 60px;
+}
+.caja6{
+  /*otro tipo de enmarcado sombra hacia dentro*/
+  border: 5px ridge #000;
+}
+.caja7{
+  /*mitad de un color y mitad de otro*/
+  border: 5px inset #000;
+}
+.caja8{
+  /*contraria el borde inset*/
+border:5px outset #000;
+}
