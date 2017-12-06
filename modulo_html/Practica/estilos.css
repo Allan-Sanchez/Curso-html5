@@ -11,7 +11,8 @@ body {
 }
 
 .contenedor {
-  width: 1000px;
+  width: 90%;
+  max-width: 1000px;
   margin: 20px auto;
 }
 
@@ -47,7 +48,7 @@ header nav ul li a:hover {
 }
 
 .main {
-  width: 700px;
+  width: 70%;
   background: #fff;
   float: left;
 }
@@ -80,7 +81,7 @@ header nav ul li a:hover {
 }
 
 .aside aside {
-  width: 300px;
+  width: 30%;
   background: rgb(227, 161, 50);
   float: left;
   line-height: 30px;
@@ -119,7 +120,7 @@ header nav ul li a:hover {
 
 footer {
   clear: both;
-  width: 700px;
+  width: 70%;
   background: rgb(249, 90, 11);
   padding: 20px 0;
   text-align: center;
@@ -129,4 +130,24 @@ footer {
 
 img {
   border: 2px solid #000;
+}
+
+@media screen and (max-width:800px) {
+  .main{
+    width: 100%;
+  }
+  .aside aside{
+    width: 100%;
+
+  }
+  footer{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:980px) {
+.aside .widget p{
+  font-size: 15PX;
+  line-height: 20px;
+}
 }
