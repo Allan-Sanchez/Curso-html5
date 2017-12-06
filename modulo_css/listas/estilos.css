@@ -1,0 +1,37 @@
+/*ul,ol{
+
+para las listas desordenadas
+  para quitales las viñeta none temos vi;etas como  disc, circle , square , imagen
+  list-style: none;
+
+  padding: 0;
+}*/
+body{
+  font-family: sans-serif;
+}
+ul{
+  list-style-image: url(../img/check.png);
+}
+/*para listas desordenadas*/
+ol{
+  list-style: upper-roman;
+}
+.menu{
+background:rgb(86, 161, 224);
+  width: 200px;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.menu li{
+  border-bottom: 1px solid rgb(50, 41, 68);
+}
+.menu li a{
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+.menu li a:hover{
+  background: rgb(111, 40, 91);
+}
