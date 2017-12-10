@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+background:rgb(114, 204, 163);
+font-family: sans-serif;
+}
+.contenedor{
+  width: 80%;
+  max-width: 700px;
+  height: 500px;
+  background: rgb(69, 36, 163);
+  display: flex;
+  /*para darle direccion a nuestas cajas horizontal mente con rows
+  y vertical mente con colums*/
+  flex-direction:row;
+  /*para decile si queremo salte de linea
+  nowrap para que todas nuestras cajas se acomoden en una misma linea cambiando de tama;o  */
+  flex-wrap: wrap;
+ /*para mover todas nuestras cajas */
+  justify-content: space-between;
+  /*para mover verticalmente nuestras cajas
+  align-items:center;*/
+
+  /*esta funcion solo funciona si hay mas de una linea
+  */align-content: center;
+}
+.caja{
+  width: 100px;
+  height: 100px;
+  background:rgb(115, 212, 86);
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-size: 40px;
+  color: #fff;
+}

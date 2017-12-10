@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(123, 228, 185);
+  font-family: sans-serif;
+}
+
+.contenedor{
+  margin: 20px;
+  width: 80%;
+  max-width: 700px;
+  height: 400px;
+  background: rgb(69, 36, 163);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*align-items: center;*/
+  align-content: center;
+  justify-content:space-between;
+}
+.caja{
+  width:150px;
+  height: 100px;
+  background:rgb(115, 212, 86);
+  margin: 25px;
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+  color: #fff;
+  flex-grow: 1;
+}
+.dos{
+  flex-shrink: 0;
+  width: 200px;
+  align-self: center;
+}
+/*propiedade para los hijos
+( 1 ) order se les asigna un numero par luego ser ordenados
+*/
+/*.uno{
+  order: 3;
+}
+.dos{
+  order: 2;
+}
+.tres{
+  order: 1;
+}
+
+( 2 ) flex-grow para decirles que nuestras cajas sin importar el numero tienen que
+ocupar el 100% del espacio
+
+( 3 ) flex-shrink para fijar un tama;o minimo
+
+( 4 ) flex-basis para decirle una medida inicial
+
+( 5 ) flex-grow para decirle que va a creser de diferente modo ya sea mas o menos
+
+( 6 ) flex-self para moder mover solo una caja
+*/

@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("../../modulo_css/img/pattern.png");
+}
+.contenedor{
+  margin: auto;
+  /*margin: 20px;*/
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+header{
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+header .logo img{
+  width: 100px;
+}
+
+header .menu a{
+text-decoration: none;
+color: #000;
+margin-right: 40px;
+font-size: 20px;
+}
+header .menu a:hover{
+  text-decoration: underline;
+}
+
+.main{
+  background:rgba(81, 218, 237, 0.4);
+  padding: 20px;
+  width: 70%;
+
+}
+.main article .thumb{
+  margin-bottom: 20px;
+}
+.main article .thumb img{
+  width: 100%;
+  vertical-align: top;
+}
+
+.main article h2{
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-style: 32px;
+}
+.main article p{
+  line-height: 27px;
+  /*margin: 10px;*/
+  margin-bottom: 14px;
+  font-size: 15px;
+}
+aside{
+  background:rgba(238, 124, 50, 0.75);
+  /*margin: 10px;*/
+  padding: 20px;
+  width: 30%;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+aside .ad{
+  font-size: 30px;
+  background: rgb(172, 160, 149);
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+}
+
+footer{
+  margin-top: 20px;
+  background:rgba(144, 155, 161, 0.69);
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+footer .redes-sociales a {
+  /*color: #fff;*/
+  text-decoration:none;
+  color: #000;
+  margin-left: 20px;
+
+}
+footer .redes-sociales a:hover{
+  text-decoration: underline;
+}
+
+@media screen and (max-width:800px) {
+  .main{
+    width: 100%;
+  }
+  aside{
+    width: 100%;
+    flex-direction: row;
+  }
+  aside .ad{
+    width: 40%;
+  }
+}
+@media screen and (max-width:500px) {
+  header{
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  header .menu{
+    width: 100%;
+    text-align: center;
+  }
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .autor{
+    order: 2
+  }
+  .redes-sociales{
+    order: 1;
+    padding-bottom: 18px;
+  }
+}
+@media screen and (max-width:400px) {
+  aside{
+    display: none;
+  }
+}
